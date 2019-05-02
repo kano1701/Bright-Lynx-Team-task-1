@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<p><b>Первое число:</b></p>
+	<input id="numberOne" type="text" value="0.1">
+	<p><b>Второе число:</b></p>
+	<input id="numberTwo" type="text" value="0.2">
+	<button onclick="summa();">Сложить</button>
+	
+	<script>
+		function summa()
+		{
+			var n1 = parseFloat(document.getElementById('numberOne').value);
+			var n2 = parseFloat(document.getElementById('numberTwo').value);
+			alert(n1+n2);
+		}
+	</script>
+</body>
+</html> 
