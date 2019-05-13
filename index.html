@@ -17,7 +17,7 @@
 		{
 			var n1 = parseFloat(document.getElementById('numberOne').value);
 			var n2 = parseFloat(document.getElementById('numberTwo').value);
-			alert("Результат:\n"+Number(n1+n2));
+			alert("Результат:\n"+Number(Math.round((n1+n2) * 100) / 100 ));
 		}
 	</script>
 </body>
